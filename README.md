@@ -20,7 +20,10 @@ To load the extension into Chrome,
 ## Usage
 To test if a news article has true or fake claims, open the article in Chrome and click on the "Fake News Fighter" icon from the extensions tray.
 
-![Sample Image](sample.png)
+
+![WhatsApp Image 2023-12-05 at 02 58 18](https://github.com/RhyshaKachari/fake-news-detection/assets/97456579/5ebd6852-0e5a-45a6-9025-bf797d53df06)
+
+![WhatsApp Image 2023-12-05 at 02 58 56](https://github.com/RhyshaKachari/fake-news-detection/assets/97456579/6645b7ed-70c8-454a-a49b-fa649153f845)
 
 The extension provides the following information about the article:
 
