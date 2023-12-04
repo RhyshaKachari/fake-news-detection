@@ -1,5 +1,5 @@
 # Fake News Fighter
-A Chrome extension to inform users of the truthfulness of a news article on a webpage and news website credibility scores. Powered by a machine learning model trained on multiple datasets from the CLEF fake news detection workshop and Kaggle.
+Unveiling Fake News Fighter, the Chrome extension dedicated to debunking misinformation. Our AI model, trained on CLEF fake news detection workshop and Kaggle datasets, empowers users to assess article veracity and website credibility
 
 ## Environment Setup
 
@@ -20,7 +20,8 @@ To load the extension into Chrome,
 ## Usage
 To test if a news article has true or fake claims, open the article in Chrome and click on the "Fake News Fighter" icon from the extensions tray.
 
-![Sample Image](sample.png)
+![image](https://github.com/RhyshaKachari/fake-news-detection/assets/97456579/f6ff84c7-3aae-4c97-b76d-3732fd840de4)
+
 
 The extension provides the following information about the article:
 
@@ -28,5 +29,5 @@ The extension provides the following information about the article:
 - **Website Credibility score** indicating the "trustworthiness" of the website.
 - Provision to incorporate **user feedback** in the above two measures.
 
-The user feedback is taken into account while calculating the website credibility score for subsequent inferences. The records corresponding to extension hits are stored in <code>data/model_predictions.csv</code> and the feedback log is stored in <code>data/user_corrections.csv</code>. These files can be used to re-train the model and refine its predictions.
+User feedback contributes to refining the model. The records corresponding to extension hits are stored in <code>data/model_predictions.csv</code> and the feedback log is stored in <code>data/user_corrections.csv</code>. These files can be used to re-train the model and refine its predictions.
 
